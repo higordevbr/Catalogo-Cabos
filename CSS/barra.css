@@ -1,0 +1,44 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,1) 18%, rgba(31,31,172,1) 46%, rgba(12,5,130,1) 86%);
+  padding: 1rem;
+  color: yellow;
+  font-size: 1.3rem;
+}
+
+form{
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+}
+
+form input, form button{
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+  border: none;
+  padding: 0.3rem;
+}
+
+form button{
+  cursor: pointer;
+  background:none;
+  color:white;
+}
+
+form button :hover{
+background-color: white;
+color: blue;
+}
+
+.logo{
+  display:flex;
+  width: 10rem;
+  height: 10rem;
+
+}
